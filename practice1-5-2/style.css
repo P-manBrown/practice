@@ -9,6 +9,31 @@ header .headline {
   margin: 20px auto;
 }
 
-nav {
-  margin: 0 auto;
+.list {
+  list-style: none;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.list-item {
+  display: inline-block;
+  margin: auto 20px;
+}
+
+main {
+  margin: 50px auto;
+}
+
+.box-list {
+  list-style: none;
+  display: inline-block;
+  width: 800px;
+  font-size: 0;
+}
+
+.box-list-item {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
 }
