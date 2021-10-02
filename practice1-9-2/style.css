@@ -10,7 +10,59 @@ header {
 }
 
 .main-section {
-  border: 1px solid black;
   width: 960px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 
+.main-content {
+  background-color: #eee;
+  width: 300px;
+  position: relative;
+}
+
+.main-content:nth-child(2) {
+  margin: 0px 30px;
+}
+
+.steps {
+  display: inline-block;
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.content-image {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px;
+}
+
+.content-image1 {
+  background-image: url(img/flow01.png);
+}
+
+.content-image2 {
+  background-image: url(img/flow02.png);
+}
+
+.content-image3 {
+  background-image: url(img/flow03.png);
+}
+
+.content-title {
+  margin: 5px 10px;
+}
+
+.content-text {
+  margin: 0px 10px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaa;
+}
